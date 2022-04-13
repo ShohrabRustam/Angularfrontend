@@ -6,11 +6,11 @@ import { SecureComponent } from './secure/secure.component';
 
 const routes: Routes = [
   {
-    path:"public",
+    path:"",
     component:PublicComponent,
     children:[
       {
-        path:'home',
+        path:'',
         component:HomeComponent
       }
 
