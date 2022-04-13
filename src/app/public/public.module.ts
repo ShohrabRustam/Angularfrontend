@@ -8,14 +8,13 @@ import { HomeComponent } from '../public/home/home.component';
 import { LoginComponent } from '../public/login/login.component';
 
 
-
 @NgModule({
   declarations: [
     PublicComponent,
     UsersComponent,
     SecureComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
   ],
   imports: [
     CommonModule,
